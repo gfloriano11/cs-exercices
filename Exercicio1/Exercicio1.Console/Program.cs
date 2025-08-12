@@ -12,11 +12,6 @@ Console.WriteLine("Olá, bem-vindo ao S.C.E.L | [Sistema de Controle de Estoque 
 insert_book(books, books_unit_price, books_quantity, books_price, available, quantity);
 show_stock(books, books_unit_price, books_quantity, books_price, available, quantity);
 
-static void menu()
-{
-    
-}
-
 static void insert_book(string[] books, decimal[] books_unit_price, int[] books_quantity, decimal[] books_price, string[] available, int quantity)
 {
     bool option = true;
