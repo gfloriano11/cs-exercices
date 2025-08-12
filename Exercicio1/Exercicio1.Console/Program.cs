@@ -68,12 +68,11 @@ static void insert_book(string[] books, decimal[] books_unit_price, int[] books_
 
 static void show_stock(string[] books, decimal[] books_unit_price, int[] books_quantity, decimal[] books_price, string[] available, int quantity)
 {
-    Console.WriteLine($"Buscando... {quantity}");
+    Console.WriteLine($"Buscando...");
     for (int i = 0; i < max_quantity; i++)
     {
         if (!string.IsNullOrEmpty(books[i]))
         {
-            Console.WriteLine($"Dados do livro número {i}");
             Console.WriteLine($"{books[i]} | {books_price[i]} | {books_unit_price[i]} | {books_quantity[i]} | {available[i]}");
         }
     }
