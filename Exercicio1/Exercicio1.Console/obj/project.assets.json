@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jdflo\\Gustavo\\catolica\\engenharia_software\\2_semestre\\poo\\aula2\\Exercicios\\Exercicio1\\Exercicio1.Console\\Exercicio1.Console.csproj",
+      "projectUniqueName": "C:\\Users\\jdflo\\Gustavo\\catolica\\engenharia_software\\2_semestre\\poo\\aula2\\cs-exercices\\Exercicio1\\Exercicio1.Console\\Exercicio1.Console.csproj",
       "projectName": "Exercicio1.Console",
-      "projectPath": "C:\\Users\\jdflo\\Gustavo\\catolica\\engenharia_software\\2_semestre\\poo\\aula2\\Exercicios\\Exercicio1\\Exercicio1.Console\\Exercicio1.Console.csproj",
+      "projectPath": "C:\\Users\\jdflo\\Gustavo\\catolica\\engenharia_software\\2_semestre\\poo\\aula2\\cs-exercices\\Exercicio1\\Exercicio1.Console\\Exercicio1.Console.csproj",
       "packagesPath": "C:\\Users\\jdflo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jdflo\\Gustavo\\catolica\\engenharia_software\\2_semestre\\poo\\aula2\\Exercicios\\Exercicio1\\Exercicio1.Console\\obj\\",
+      "outputPath": "C:\\Users\\jdflo\\Gustavo\\catolica\\engenharia_software\\2_semestre\\poo\\aula2\\cs-exercices\\Exercicio1\\Exercicio1.Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jdflo\\AppData\\Roaming\\NuGet\\NuGet.Config"
