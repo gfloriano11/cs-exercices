@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jdflo\\.nuget\\packages\\": {}
+    "C:\\Users\\Gustavo Floriano\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jdflo\\Gustavo\\catolica\\engenharia_software\\2_semestre\\poo\\aula2\\cs-exercices\\Exercicio2\\Exercicio2.Console\\Exercicio2.Console.csproj",
+      "projectUniqueName": "C:\\Users\\Gustavo Floriano\\OneDrive\\Documentos\\catolica\\2_semestre\\poo\\cs-exercices\\Exercicio2\\Exercicio2.Console\\Exercicio2.Console.csproj",
       "projectName": "Exercicio2.Console",
-      "projectPath": "C:\\Users\\jdflo\\Gustavo\\catolica\\engenharia_software\\2_semestre\\poo\\aula2\\cs-exercices\\Exercicio2\\Exercicio2.Console\\Exercicio2.Console.csproj",
-      "packagesPath": "C:\\Users\\jdflo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jdflo\\Gustavo\\catolica\\engenharia_software\\2_semestre\\poo\\aula2\\cs-exercices\\Exercicio2\\Exercicio2.Console\\obj\\",
+      "projectPath": "C:\\Users\\Gustavo Floriano\\OneDrive\\Documentos\\catolica\\2_semestre\\poo\\cs-exercices\\Exercicio2\\Exercicio2.Console\\Exercicio2.Console.csproj",
+      "packagesPath": "C:\\Users\\Gustavo Floriano\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gustavo Floriano\\OneDrive\\Documentos\\catolica\\2_semestre\\poo\\cs-exercices\\Exercicio2\\Exercicio2.Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jdflo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Gustavo Floriano\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"

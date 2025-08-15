@@ -1,0 +1,15 @@
+C:\Users\Gustavo Floriano\OneDrive\Documentos\catolica\2_semestre\poo\cs-exercices\Exercicio2\Exercicio2.Console\obj\Debug\net9.0\Exercicio2.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo Floriano\OneDrive\Documentos\catolica\2_semestre\poo\cs-exercices\Exercicio2\Exercicio2.Console\obj\Debug\net9.0\Exercicio2.Console.AssemblyInfoInputs.cache
+C:\Users\Gustavo Floriano\OneDrive\Documentos\catolica\2_semestre\poo\cs-exercices\Exercicio2\Exercicio2.Console\obj\Debug\net9.0\Exercicio2.Console.AssemblyInfo.cs
+C:\Users\Gustavo Floriano\OneDrive\Documentos\catolica\2_semestre\poo\cs-exercices\Exercicio2\Exercicio2.Console\obj\Debug\net9.0\Exercicio2.Console.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo Floriano\OneDrive\Documentos\catolica\2_semestre\poo\cs-exercices\Exercicio2\Exercicio2.Console\obj\Debug\net9.0\Exercicio2.Console.sourcelink.json
+C:\Users\Gustavo Floriano\OneDrive\Documentos\catolica\2_semestre\poo\cs-exercices\Exercicio2\Exercicio2.Console\bin\Debug\net9.0\Exercicio2.Console.exe
+C:\Users\Gustavo Floriano\OneDrive\Documentos\catolica\2_semestre\poo\cs-exercices\Exercicio2\Exercicio2.Console\bin\Debug\net9.0\Exercicio2.Console.deps.json
+C:\Users\Gustavo Floriano\OneDrive\Documentos\catolica\2_semestre\poo\cs-exercices\Exercicio2\Exercicio2.Console\bin\Debug\net9.0\Exercicio2.Console.runtimeconfig.json
+C:\Users\Gustavo Floriano\OneDrive\Documentos\catolica\2_semestre\poo\cs-exercices\Exercicio2\Exercicio2.Console\bin\Debug\net9.0\Exercicio2.Console.dll
+C:\Users\Gustavo Floriano\OneDrive\Documentos\catolica\2_semestre\poo\cs-exercices\Exercicio2\Exercicio2.Console\bin\Debug\net9.0\Exercicio2.Console.pdb
+C:\Users\Gustavo Floriano\OneDrive\Documentos\catolica\2_semestre\poo\cs-exercices\Exercicio2\Exercicio2.Console\obj\Debug\net9.0\Exercicio2.Console.dll
+C:\Users\Gustavo Floriano\OneDrive\Documentos\catolica\2_semestre\poo\cs-exercices\Exercicio2\Exercicio2.Console\obj\Debug\net9.0\refint\Exercicio2.Console.dll
+C:\Users\Gustavo Floriano\OneDrive\Documentos\catolica\2_semestre\poo\cs-exercices\Exercicio2\Exercicio2.Console\obj\Debug\net9.0\Exercicio2.Console.pdb
+C:\Users\Gustavo Floriano\OneDrive\Documentos\catolica\2_semestre\poo\cs-exercices\Exercicio2\Exercicio2.Console\obj\Debug\net9.0\Exercicio2.Console.genruntimeconfig.cache
+C:\Users\Gustavo Floriano\OneDrive\Documentos\catolica\2_semestre\poo\cs-exercices\Exercicio2\Exercicio2.Console\obj\Debug\net9.0\ref\Exercicio2.Console.dll
