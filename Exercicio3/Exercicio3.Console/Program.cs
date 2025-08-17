@@ -13,6 +13,8 @@ static void insert_product(string[] product_name, int[] product_quantity, int[] 
     bool option = false;
     int product = 0;
 
+    Console.WriteLine("Olá. Bem-vindo ao S.G.V | Sistema de Gerenciamento de Vendas.");
+    Console.WriteLine("Vamos inserir os dados do primeiro produto:");
 
     while (!option)
     {
