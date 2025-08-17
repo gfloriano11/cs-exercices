@@ -32,8 +32,25 @@ static void insert_product(string[] product_name, int[] product_quantity, int[] 
 
         while (product_quantity[product] < 1)
         {
-            Console.WriteLine("Inválido. Tente novamente:");
+            Console.WriteLine("Quantidade inválida. Tente novamente:");
             product_quantity[product] = int.Parse(Console.ReadLine());
+        }
+
+        Console.WriteLine("Digite o valor unitário do produto:");
+        product_price[product] = int.Parse(Console.ReadLine());
+
+        while (product_price[product] < 1 || product_price[product] > 1000)
+        {
+            Console.WriteLine("Preço inválido. Tente novamente:");
+            product_price[product] = int.Parse(Console.ReadLine());
+        }
+
+        total_product_price[product] = product_price[product] * product_quantity[product];
+
+        product_category[product] = "Baixa";
+        if (total_product_price[product] >= 500)
+        {
+            product_category[product] = "Alta";
         }
     }
 }
