@@ -83,7 +83,7 @@ static void show_info(string[] athlete_name, int[,] athlete_points, int[] avg_at
     Console.WriteLine(
         $"| {"Nome",-15} | {"Pontuação",-15} | {"Média",-5} | {"Status",-10} |"
     );
-    Console.WriteLine(new string('-', 60)); // linha separadora
+    Console.WriteLine(new string('-', 60));
 
     for (int i = 0; i < 20; i++)
     {

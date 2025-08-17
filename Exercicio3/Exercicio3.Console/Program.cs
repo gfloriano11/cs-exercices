@@ -2,14 +2,16 @@
 
 string[] product_name = new string[max_quantity];
 int[] product_quantity = new int[max_quantity];
-int[] product_price = new int[max_quantity];
-int[] total_product_price = new int[max_quantity];
+decimal[] product_price = new decimal[max_quantity];
+decimal[] total_product_price = new decimal[max_quantity];
 string[] product_category = new string[max_quantity];
 
 insert_product(product_name, product_quantity, product_price, total_product_price, product_category);
+show_info(product_name, product_quantity, product_price, total_product_price, product_category);
 
-static void insert_product(string[] product_name, int[] product_quantity, int[] product_price, int[] total_product_price, string[] product_category)
+static void insert_product(string[] product_name, int[] product_quantity, decimal[] product_price, decimal[] total_product_price, string[] product_category)
 {
+    string menu_option;
     bool option = false;
     int product = 0;
 
@@ -37,12 +39,12 @@ static void insert_product(string[] product_name, int[] product_quantity, int[] 
         }
 
         Console.WriteLine("Digite o valor unitário do produto:");
-        product_price[product] = int.Parse(Console.ReadLine());
+        product_price[product] = decimal.Parse(Console.ReadLine());
 
         while (product_price[product] < 1 || product_price[product] > 1000)
         {
             Console.WriteLine("Preço inválido. Tente novamente:");
-            product_price[product] = int.Parse(Console.ReadLine());
+            product_price[product] = decimal.Parse(Console.ReadLine());
         }
 
         total_product_price[product] = product_price[product] * product_quantity[product];
@@ -52,7 +54,38 @@ static void insert_product(string[] product_name, int[] product_quantity, int[] 
         {
             product_category[product] = "Alta";
         }
+
+        Console.WriteLine("Deseja inserir mais um produto?");
+        Console.WriteLine("[1] - Sim");
+        Console.WriteLine("[2] - Não");
+        menu_option = Console.ReadLine();
+
+        while (menu_option != "1" && menu_option != "2")
+        {
+            Console.WriteLine("Opção inválida. Tente novamente:");
+            menu_option = Console.ReadLine();
+        }
+
+        if (menu_option == "2")
+        {
+            option = true;
+        }
+
+        product++;
     }
 }
 
-// show_products();
+static void show_info(string[] product_name, int[] product_quantity, decimal[] product_price, decimal[] total_product_price, string[] product_category)
+{
+    Console.WriteLine("Gerando relatório...");
+    Console.WriteLine($"| {"Nome",-15} | {"Quantidade",-5} | {"Preço",-5} | {"Preço Total",-5} | {"Categoria",-10} |");
+    Console.WriteLine(new string('-', 67));
+
+    for (int i = 0; i < max_quantity; i++)
+    {
+        if (!string.IsNullOrWhiteSpace(product_name[i]))
+        {
+            Console.WriteLine($"| {product_name[i],-15} | {product_quantity[i],-10} | {product_price[i],-5} | {total_product_price[i],-11} | {product_category[i],-10} |");
+        }
+    }
+}
